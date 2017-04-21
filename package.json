@@ -1,0 +1,44 @@
+{
+  "name": "image-to-uri",
+  "version": "1.0.0",
+  "description": "Convert image file to data URI",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiaanduplessis/image-to-uri.git"
+  },
+  "homepage": "https://github.com/tiaanduplessis/image-to-uri",
+  "bugs": "https://github.com/tiaanduplessis/image-to-uri/issues",
+  "author": {
+    "name": "Tiaan",
+    "email": "tiaanduplessis@hotmail.com",
+    "url": "tiaan.beer"
+  },
+  "bin": {
+    "image-to-uri": "cli.js"
+  },
+  "scripts": {
+    "start": "npm run dev",
+    "pretest": "npm run lint:fix",
+    "test": "jest --env=node",
+    "test:watch": "npm test -- --watch",
+    "coverage": "npm test -- --coverage",
+    "lint": "standard --verbose",
+    "lint:fix": "standard --fix --verbose",
+    "precommit": "npm test"
+  },
+  "keywords": [
+    "image",
+    "uri",
+    "fs",
+    "base64",
+    "image-to-uri"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "^0.13.3",
+    "jest": "^19.0.2",
+    "standard": "^10.0.1"
+  }
+}
