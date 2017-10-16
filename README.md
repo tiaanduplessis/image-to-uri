@@ -64,6 +64,8 @@
 
 ## Install
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/image-to-uri.svg)](https://greenkeeper.io/)
+
 ```sh
 $ npm install --save image-to-uri
 # OR
